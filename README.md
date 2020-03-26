@@ -113,7 +113,7 @@ See the [LICENSE][license] file.
 
 ## Autor
 ![Rochel Ryu](https://github.com/rochelryu)
-Rochel Ryu | Dev JS/TS Dart & Kotlin
+ | Dev JS/TS Dart & Kotlin
 
 [license]: /LICENSE
 [contributing]: /CONTRIBUTING.md
