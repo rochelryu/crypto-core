@@ -1,0 +1,47 @@
+{
+  "name": "crypto-core",
+  "version": "1.0.0",
+  "description": "Symmetric key encryption module. varying according to the size of the chain of characters and also of the digest. Robust, stable.",
+  "readme": "# A Node.js module for Symmetric key encryption module. varying according to the size of the chain of characters and also of the digest. Robust, stable. ",
+  "readmeFilename": "README.md",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "npm run compile",
+    "compile": "npm run clean && tsc -p .",
+    "watch": "tsc -w -p .",
+    "clean": "rm -rf dist",
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "bugs": {
+    "url": "http://github.com/rochelryu/crypto-core/issues",
+    "email": "core.irie@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rochelryu/crypto-core.git"
+  },
+  "keywords": [
+    "crypto",
+    "encode",
+    "decode",
+    "chiffrement",
+    "dechiffrement",
+    "cryptage",
+    "encryption",
+    "digest",
+    "Symmetric key"
+  ],
+  "author": "rochelryu",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "private": false,
+  "engineStrict": true
+}
