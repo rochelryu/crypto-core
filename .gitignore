@@ -43,6 +43,7 @@ jspm_packages/
 
 # TypeScript v1 declaration files
 typings/
+lib
 
 # TypeScript cache
 *.tsbuildinfo
@@ -80,7 +81,7 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+
 
 # Gatsby files
 .cache/
