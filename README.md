@@ -67,15 +67,15 @@ const cryptoCore = require("crypto-core")
 const notCoded = "bonjour"
 const otherNotCoded = "bonjour je suis ce que je suis et toi"
 
-const coded = cryptoCore.coreEncoded(notCoded)
+const coded = cryptoCore.coreEncode(notCoded)
 // coded -> oAytxCy
-const otherCoded = cryptoCore.coreEncoded(otherNotCoded)
+const otherCoded = cryptoCore.coreEncode(otherNotCoded)
 // coded -> S42X162 TN 01OX TV 7ÄV 0V 9ÄZ9 VÀ À5Z
 
-const codedWithDigest = cryptoCore.coreEncoded(notCoded, 8)
+const codedWithDigest = cryptoCore.coreEncode(notCoded, 8)
 // coded -> qCAvzEA
 
-const decode = cryptoCore.coreDecoded(coded)
+const decode = cryptoCore.coreDecode(coded)
 // coded -> bonjour
 
 
