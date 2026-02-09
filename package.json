@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/rochelryu/crypto-core.git"
+    "url": "git+https://github.com/rochelryu/crypto-core.git"
   },
   "keywords": [
     "crypto",
