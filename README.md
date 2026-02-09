@@ -35,7 +35,11 @@ Take into account multiple character chain.
 so this code works for channels with french, spanish, deutsch, latin accents and lots of character with variant obselette.
 Do not take into account the Greek accents, I do not take into account also all the Chinese, Japanese and Korean accents (Madarain, Katakana, etc ....)
 
+## Changelog
 
+### v1.0.1
+- Fixed decryption bug with negative modulo operations
+- Improved handling of character position in digest calculation
 
 
 ## Installation
